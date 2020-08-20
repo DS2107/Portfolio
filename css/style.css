@@ -157,6 +157,107 @@ body {
   color: #ffffff;
 }
 
+/* Projects */
+.projects {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+
+.project-image {
+}
+
+.project-image:hover {
+  box-shadow: 2px 2px 5px 5px white;
+}
+
+.project-slide {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.project-slide {
+  flex-basis: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-text {
+  flex-basis: 60%;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-title {
+  margin: 0;
+  margin-bottom: 41px;
+  flex-basis: 100%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+
+.project-time {
+  display: flex;
+  margin-bottom: 48px;
+}
+
+.project-cost {
+  margin-left: 25%;
+  display: flex;
+  margin-bottom: 48px;
+}
+
+.project-subtitle {
+  margin: 0;
+  margin-left: 16px;
+  margin-bottom: 7px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.project-paragraph {
+  margin: 0;
+  margin-left: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.project-bullet {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #ffbb01;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.project-bullet-active {
+  background-color: #ffbb01;
+}
+
+.swiper-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30%;
+  margin-top: 2%;
+  cursor: pointer;
+}
+/* contacts */
 .contacts-form {
   max-width: 380px;
   background: #ffffff;
@@ -224,7 +325,8 @@ body {
 }
 
 .contacts-social {
-  flex-basis: 100%;
+  margin-top: 53px;
+  flex-basis: 50%;
 }
 
 .contacts-title {
